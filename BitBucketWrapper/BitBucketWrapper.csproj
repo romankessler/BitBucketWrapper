@@ -56,7 +56,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="NugetPackage\content\images\paint_bucket.png" />
     <Content Include="NugetPackage\lib\net471\BitBucketWrapper.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

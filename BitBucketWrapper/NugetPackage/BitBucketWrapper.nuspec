@@ -17,7 +17,6 @@
   <!-- A readme.txt to display when the package is installed -->
   <files>
     <file src="lib\**" target="lib/" />
-    <file src="content\images\**" target="content/images/" />
     <!--<file src="readme.txt" target="" />-->
   </files>
 </package>
