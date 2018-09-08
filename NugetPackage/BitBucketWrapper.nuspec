@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>BitBucketWrapper</id>
+    <version>1.0.0-beta</version>
+    <authors>Roman Kessler</authors>
+    <description>description here</description>
+    <iconUrl>file://content/images/paint_bucket.png</iconUrl>
+
+    <!-- Dependencies are automatically installed when the package is installed -->
+    <dependencies>
+      <dependency id="Atlassian.Stash.Api" version="3.1.0"/>
+    </dependencies>
+  </metadata>
+
+  <!-- A readme.txt to display when the package is installed -->
+  <files>
+    <file src="lib\**" target="lib/" />
+    <file src="content\images\**" target="content/images/" />
+    <!--<file src="readme.txt" target="" />-->
+  </files>
+</package>
