@@ -5,8 +5,8 @@
     <id>BitBucketWrapper</id>
     <version>1.0.0-beta</version>
     <authors>Roman Kessler</authors>
-    <description>description here</description>
-    <iconUrl>file://content/images/paint_bucket.png</iconUrl>
+    <description>Wrapps Atlassian Stash API for commit history</description>
+    <iconUrl>https://github.com/romankessler/BitBucketWrapper/blob/master/NugetPackage/content/images/paint_bucket.png</iconUrl>
 
     <!-- Dependencies are automatically installed when the package is installed -->
     <dependencies>
