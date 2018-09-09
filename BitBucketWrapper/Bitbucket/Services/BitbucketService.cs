@@ -72,7 +72,7 @@
         {
             foreach (var repository in repositories)
             {
-                var commits = _client.Commits.Get(project.Key, repository.Slug, _requestOptions).Result.Values.ToList();
+                var commits = _client.Commits.Get(project.Key, repository.Slug,_requestOptions).Result.Values.ToList();
                 HandleCommits(commits, project, repository);
             }
         }
